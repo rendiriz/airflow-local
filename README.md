@@ -24,7 +24,7 @@ git submodule add https://github.com/rendiriz/airflow-local.git airflow/local
 
     > _File_ `{root_repo}/airflow/dags/{dag_nama_file}.py` dapat diubah saat _service_ Airflow masih berjalan.
 
-5. Buat _file_ `{root_repo}/airflow/local/.env` berdasarkan [`template.env`](template.env).
+5. Buat _file_ `{root_repo}/airflow/local/.env` berdasarkan [`.env.template`](.env.template).
 
 6. Apabila Airflow sudah tidak digunakan, jalankan perintah Docker Compose berikut ini di _terminal_ komputer untuk menghentikannya:
 
