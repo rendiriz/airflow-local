@@ -1,1 +1,2 @@
 voxrow[airflow]==0.9.25
+apache-airflow-providers-telegram
